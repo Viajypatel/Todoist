@@ -1,38 +1,28 @@
-.App {
-  text-align: center;
-}
+/* app.css */
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+/* Styles for active NavLink */
+.active {
+    color: rgb(55, 107, 237); /* Change the text color */
+    font-weight: bold; /* Make the text bold */
+    /* Add other styles as needed */
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  li:hover {
+    color: rgb(28, 16, 16); /* Change text color on hover */
+    /* Add other hover styles */
   }
-  to {
-    transform: rotate(360deg);
+  /* Hover effect for NavLink */
+  
+  table {
+      border-collapse: collapse;
+      width: 100%;
+      
   }
-}
+  th, td,tr {
+      border: 1px solid #dddddd;
+      text-align: left;
+      padding: 8px;
+  }
+  th {
+      background-color: #120f0f;
+      color: white;
+  }
